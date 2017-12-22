@@ -2,7 +2,7 @@
 
 ## 问题
 
-直达：https://leetcode.com/problems/largest-rectangle-in-histogram/description/
+直达：[https://leetcode.com/problems/largest-rectangle-in-histogram/description/](https://leetcode.com/problems/largest-rectangle-in-histogram/description/)
 
 该题目是求柱状图的bar围成的最大矩形的面积，如下图height =`[2,1,5,6,2,3]`的面积是10.
 
@@ -19,13 +19,12 @@
 
 1. 索引i=0, height\[0\] = 2，堆栈为空，直接将2的下标0压栈，i++；
 2. i=1，height\[1\]=1 &lt; 2, 开始从右向左计算面积；
+
    1. i=0的bar的面积是0的长度1乘以高度2，即为2；
 
-   2. 
-   3. 堆栈为空，停止弹出
-3. i=1, 堆栈为空，将
+   2. 堆栈为空，停止弹出。
 
-
-
+3. i=1, 堆栈为空，将i=1压栈；
+4. 
 
 
