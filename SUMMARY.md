@@ -9,6 +9,7 @@
     * [Q1: Two Sum](chapter1/12-ha-xi/two-sum.md)
   * [1.4 堆栈](chapter1/14-dui-zhan.md)
     * [Q84: Largest Rectangle in Histogram](chapter1/14-dui-zhan/largest-rectangle-in-histogram.md)
-* [第二章](di-er-zhang.md)
+* [第二章: 动态规划](di-er-zhang.md)
+  * [Q85: Maximal Rectangle](di-er-zhang/q85-maximal-rectangle.md)
 * [第三章](di-san-zhang.md)
 
