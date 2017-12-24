@@ -8,7 +8,7 @@
 
 ![](/assets/import.png)
 
-分析：
+## 分析：
 
 1. 计算以每个bar为高的最大矩形区域面积，返回最大值；
 2. 如果bar的高度逐渐增高，则围城的面积逐渐增大，不需要计算；
@@ -16,7 +16,7 @@
 4. 可在数组后面添加一个高度为0的bar，用于辅助清空临时堆栈；
 5. 从左向右遍历，再从右向左计算面积，明显用堆栈存储效率更高，由于可以通过下标访问到高度，存储下标即可。
 
-举例：
+## 举例：
 
 1. 索引i=0, height\[0\] = 2，堆栈为空，直接将2的下标0压栈，i++；
 2. i=1，height\[1\]=1 &lt; 2, 开始从右向左计算面积；
@@ -41,18 +41,39 @@
 
 8. i=5, 5入栈，i++, 此时stk=\[1,4,5\];
 
-9. i=6, 遍历到添加的0高度，开始从右向左计算面积，并清空堆栈；
+i=6, 遍历到添加的0高度，开始从右向左计算面积，并清空堆栈；
 
-   1. h=stk.top\(\)=5, stk.pop\(\), area = \(6-stk.top\(\)-1\) \* height\[5\] = 3, stk = \[1,4\], res = 10;
+1. h=stk.top\(\)=5, stk.pop\(\), area = \(6-stk.top\(\)-1\) \* height\[5\] = 3, stk = \[1,4\], res = 10;
 
-   2. h=stk.top\(\)=4, stk.pop\(\), area = \(6-stk.top\(\)-1\) \* height\[4\] = 8, stk = \[1\], res = 10;
+2. h=stk.top\(\)=4, stk.pop\(\), area = \(6-stk.top\(\)-1\) \* height\[4\] = 8, stk = \[1\], res = 10;
 
-   3. h=stk.top\(\)=1, stk.pop\(\), 堆栈为空，area = \(i\)\*height\[h\] = 6, res = 10;
+3. h=stk.top\(\)=1, stk.pop\(\), 堆栈为空，area = \(i\)\*height\[h\] = 6, res = 10;
 
- 10. 由此可以返回最大值10
+4. 由此可以返回最大值10
 
- 伪代码如下：
- 
+## C++实现：
+
+```cpp
+class Solution {
+public:
+    int largestRectangleArea(vector<int>& heights) {
+        stack<int> stk;
+        heights.push_back(0);
+        int res = 0;
+        for (int i = 0; i < heights.size(); i++){
+            if(stk.empty() || heights[i] > heights[stk.top()]){
+                stk.push(i);
+            }else{
+                int h = stk.top();
+                stk.pop();
+                res = max(res, (stk.empty()?i:i-stk.top()-1) * heights[h]);
+                i--;
+            }
+        }
+        return res;
+    }
+};
+```
 
 
 
