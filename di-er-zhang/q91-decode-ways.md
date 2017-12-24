@@ -40,5 +40,35 @@ The number of ways decoding`"12"`is 2.
 
 ## C++代码：
 
+```cpp
+class Solution {
+public:
+    int numDecodings(string s) {
+        int n = s.size();
+        if(n == 0) return 0;
+        if(s[0] == '0') return 0;
+        vector<int> dp(n+1, 0);
+        dp[0] = 1;
+        dp[1] = 1;
+        for(int i = 1; i < n; i++){
+            int temp = ((s[i-1]-'0')*10+s[i]-'0');
+            if(s[i] == '0'){
+                if (0 < temp && 26 >= temp) dp[i+1] = dp[i-1];
+                else return 0;
+            }else{
+                if(s[i-1] != '0'){
+                    if (0 < temp && 26 >= temp) dp[i+1] = dp[i] + dp[i-1];
+                    else dp[i+1] = dp[i];
+                }else{
+                    if (0 < temp && 26 >= temp) dp[i+1] = dp[i];
+                    else return 0;
+                }
+            }
+        }
+        return dp[n];
+    }
+};
+```
+
 
 
