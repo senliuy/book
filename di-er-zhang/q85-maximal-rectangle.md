@@ -19,7 +19,7 @@ Return 6.
 
 ## 解析
 
-该问题是由 Q84 \([https://senliuy.gitbooks.io/leetcode/content/chapter1/14-dui-zhan/largest-rectangle-in-histogram.html](https://senliuy.gitbooks.io/leetcode/content/chapter1/14-dui-zhan/largest-rectangle-in-histogram.html)\) 衍生而来，将问题还原为Q84的方法是将矩阵的每一行都看成一个Q84的问题，其中bar的高度是从matrix\[i\]\[j\]开始，从下往上数不间断的1的个数。显然可以通过动态规划构建。
+该问题是由 [Q84](https://senliuy.gitbooks.io/leetcode/content/chapter1/14-dui-zhan/largest-rectangle-in-histogram.html) 衍生而来，将问题还原为Q84的方法是将矩阵的每一行都看成一个Q84的问题，其中bar的高度是从matrix\[i\]\[j\]开始，从下往上数不间断的1的个数。显然可以通过动态规划构建。
 
 例如上图对应的矩阵是
 
