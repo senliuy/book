@@ -1,8 +1,12 @@
 # 87. Scramble String
 
-Given a strings1, we may represent it as a binary tree by partitioning it to two non-empty substrings recursively.
+# 问题
 
-Below is one possible representation ofs1=`"great"`:
+直达: https://leetcode.com/problems/scramble-string/description/
+
+Given a string s1, we may represent it as a binary tree by partitioning it to two non-empty substrings recursively.
+
+Below is one possible representation of s1=`"great"`:
 
 ```
     great
@@ -12,7 +16,6 @@ Below is one possible representation ofs1=`"great"`:
 g   r  e   at
            / \
           a   t
-
 ```
 
 To scramble the string, we may choose any non-leaf node and swap its two children.
@@ -27,7 +30,6 @@ For example, if we choose the node`"gr"`and swap its two children, it produces a
 r   g  e   at
            / \
           a   t
-
 ```
 
 We say that`"rgeat"`is a scrambled string of`"great"`.
@@ -42,10 +44,46 @@ Similarly, if we continue to swap the children of nodes`"eat"`and`"at"`, it prod
 r   g  ta  e
        / \
       t   a
-
 ```
 
 We say that`"rgtae"`is a scrambled string of`"great"`.
 
-Given two stringss1ands2of the same length, determine ifs2is a scrambled string ofs1.
+Given two strings s1 and s2 of the same length, determine if s2 is a scrambled string of s1.
+
+# 分析
+
+将s1分成两个子字符串s11和s12, 则无论怎么变化, s11和s12的所有的字符串都在s2的相同的子树里，或者左子树s21，或者右子树s12。
+
+如果s11与s21并且s12与s22都满足Scramble或者s11与s22并且s12与s21都满足Scramble，则s1与s2满足Scramble。显然，需要通过递归求解。
+
+# C++代码
+
+```cpp
+class Solution {
+public:
+    bool isScramble(string s1, string s2) {
+        if(s1 == s2) return true;
+        if(s1.size() != s2.size()) return false;
+        string str1 = s1; string str2 = s2;
+        sort(str1.begin(), str1.end());
+        sort(str2.begin(), str2.end());
+        if (str1 != str2) return false;
+        for(int i = 1; i < str1.size(); i++){
+            string s11 = s1.substr(0, i);
+            string s12 = s1.substr(i);
+            string s21 = s2.substr(0,i);
+            string s22 = s2.substr(i);
+            if(isScramble(s11, s21) && isScramble(s12, s22)) return true;
+            s21 = s2.substr(s1.size()-i);
+            s22 = s2.substr(0, s1.size()-i);
+            if(isScramble(s11, s21) && isScramble(s12, s22)) return true;
+        }
+        return false;
+    } 
+};
+```
+
+
+
+
 
