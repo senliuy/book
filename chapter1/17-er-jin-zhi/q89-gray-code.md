@@ -1,7 +1,5 @@
 # 89. Gray Code
 
-# 问题：
-
 直达：[https://leetcode.com/problems/gray-code/description/](https://leetcode.com/problems/gray-code/description/)
 
 The gray code is a binary numeral system where two successive values differ in only one bit.
@@ -24,7 +22,7 @@ For example,`[0,2,3,1]`is also a valid gray code sequence according to the above
 
 For now, the judge is able to judge based on one instance of gray code sequence. Sorry about that.
 
-# 分析：
+## 分析：
 
 当n=1时，输出初始化为`[0,1]`,n=2时，交替的向尾部添加`[0,1], [1,0]` \(奇数位置填`[0,1]`, 偶数位置填`[1,0]`\). 结果即是`[00, 10, 11, 01]`。尾部加0就是乘2，尾部加一就是乘2再加1.
 
@@ -32,7 +30,7 @@ For now, the judge is able to judge based on one instance of gray code sequence.
 
 因此，迭代的进行更新数组即可。
 
-# 算法：
+## 算法：
 
 ```cpp
 class Solution {

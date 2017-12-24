@@ -1,8 +1,6 @@
 # 87. Scramble String
 
-# 问题
-
-直达: https://leetcode.com/problems/scramble-string/description/
+直达: [https://leetcode.com/problems/scramble-string/description/](https://leetcode.com/problems/scramble-string/description/)
 
 Given a string s1, we may represent it as a binary tree by partitioning it to two non-empty substrings recursively.
 
@@ -50,13 +48,13 @@ We say that`"rgtae"`is a scrambled string of`"great"`.
 
 Given two strings s1 and s2 of the same length, determine if s2 is a scrambled string of s1.
 
-# 分析
+## 分析
 
 将s1分成两个子字符串s11和s12, 则无论怎么变化, s11和s12的所有的字符串都在s2的相同的子树里，或者左子树s21，或者右子树s12。
 
 如果s11与s21并且s12与s22都满足Scramble或者s11与s22并且s12与s21都满足Scramble，则s1与s2满足Scramble。显然，需要通过递归求解。
 
-# C++代码
+## C++代码
 
 ```cpp
 class Solution {
@@ -82,8 +80,6 @@ public:
     } 
 };
 ```
-
-
 
 
 
