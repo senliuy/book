@@ -2,15 +2,11 @@
 
 ## 问题
 
-直达: https://leetcode.com/problems/maximal-rectangle/description/
+直达: [https://leetcode.com/problems/maximal-rectangle/description/](https://leetcode.com/problems/maximal-rectangle/description/)
 
-给出一个含有1和0的二位矩阵，返回右1组成的最大矩形区域的面积
+Given a 2D binary matrix filled with 0's and 1's, find the largest rectangle containing only 1's and return its area.
 
-## 解析
-
-该问题是由 Q84 \([https://senliuy.gitbooks.io/leetcode/content/chapter1/14-dui-zhan/largest-rectangle-in-histogram.html](https://senliuy.gitbooks.io/leetcode/content/chapter1/14-dui-zhan/largest-rectangle-in-histogram.html)\) 衍生而来，将问题还原为Q84的方法是将矩阵的每一行都看成一个Q84的问题，其中bar的高度是从matrix\[i\]\[j\]开始，从下往上数不间断的1的个数。显然可以通过动态规划构建。
-
-例如
+For example, given the following matrix:
 
 ```
 1 0 1 0 0
@@ -19,7 +15,15 @@
 1 0 0 1 0
 ```
 
-对应的矩阵是
+Return 6.
+
+给出一个含有1和0的二位矩阵，返回用1组成的最大矩形区域的面积
+
+## 解析
+
+该问题是由 Q84 \([https://senliuy.gitbooks.io/leetcode/content/chapter1/14-dui-zhan/largest-rectangle-in-histogram.html](https://senliuy.gitbooks.io/leetcode/content/chapter1/14-dui-zhan/largest-rectangle-in-histogram.html)\) 衍生而来，将问题还原为Q84的方法是将矩阵的每一行都看成一个Q84的问题，其中bar的高度是从matrix\[i\]\[j\]开始，从下往上数不间断的1的个数。显然可以通过动态规划构建。
+
+例如上图对应的矩阵是
 
 ```
 1 0 1 0 0
@@ -45,7 +49,7 @@ public:
                 else dp[i][j] = matrix[i][j]-'0';
             }
         }
-        
+
         for(int i = 0; i < row; i++){
             res = max(res, largestRectangleArea(dp[i]));
         }
