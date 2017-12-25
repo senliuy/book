@@ -13,6 +13,7 @@
   * [1.5 树](chapter1/15-shu.md)
     * [Q94. Binary Tree Inorder Traversal](chapter1/15-shu/q94-binary-tree-inorder-traversal.md)
     * [Q100. Same Tree](chapter1/15-shu/q100-same-tree.md)
+    * [Q101. Symmetric Tree](chapter1/15-shu/q101-symmetric-tree.md)
   * [1.6 图](chapter1/16-tu.md)
   * [1.7 二进制](chapter1/17-er-jin-zhi.md)
     * [Q89. Gray Code](chapter1/17-er-jin-zhi/q89-gray-code.md)
