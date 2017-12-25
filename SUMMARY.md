@@ -11,7 +11,8 @@
   * [1.4 堆栈](chapter1/14-dui-zhan.md)
     * [Q84: Largest Rectangle in Histogram](chapter1/14-dui-zhan/largest-rectangle-in-histogram.md)
   * [1.5 树](chapter1/15-shu.md)
-    * [94. Binary Tree Inorder Traversal](chapter1/15-shu/94-binary-tree-inorder-traversal.md)
+    * [Q94. Binary Tree Inorder Traversal](chapter1/15-shu/q94-binary-tree-inorder-traversal.md)
+    * Q100. Same Tree
   * [1.6 图](chapter1/16-tu.md)
   * [1.7 二进制](chapter1/17-er-jin-zhi.md)
     * [Q89. Gray Code](chapter1/17-er-jin-zhi/q89-gray-code.md)
