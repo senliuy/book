@@ -18,6 +18,7 @@
     * [Q102. Binary Tree Level Order Traversal](chapter1/15-shu/q102-binary-tree-level-order-traversal.md)
     * [Q103. Binary Tree Zigzag Level Order Traversal   ](chapter1/15-shu/q103-binary-tree-zigzag-level-order-traversal.md)
     * [Q104. Maximum Depth of Binary Tree](chapter1/15-shu/q104-maximum-depth-of-binary-tree.md)
+    * [Q105. Construct Binary Tree from Preorder and Inorder Traversal](chapter1/15-shu/q105-construct-binary-tree-from-preorder-and-inorder-traversal.md)
   * [1.7 二进制](chapter1/17-er-jin-zhi.md)
     * [Q89. Gray Code](chapter1/17-er-jin-zhi/q89-gray-code.md)
 * [第二章: 动态规划](di-er-zhang.md)
