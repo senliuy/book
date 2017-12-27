@@ -24,6 +24,7 @@
     * [Q108. Convert Sorted Array to Binary Search Tree](chapter1/15-shu/q108-convert-sorted-array-to-binary-search-tree.md)
     * [Q109. Convert Sorted List to Binary Search Tree](chapter1/15-shu/q109-convert-sorted-list-to-binary-search-tree.md)
     * [Q110. Balanced Binary Tree](chapter1/15-shu/q110-balanced-binary-tree.md)
+    * Q111. Minimum Depth of Binary Tree
   * [1.7 二进制](chapter1/17-er-jin-zhi.md)
     * [Q89. Gray Code](chapter1/17-er-jin-zhi/q89-gray-code.md)
 * [第二章: 动态规划](di-er-zhang.md)
