@@ -34,7 +34,7 @@ One possible answer is: [0,-3,9,-10,null,5], which represents the following heig
 head     mid
 ```
 
-将mid作为根节点，head到slow作为左子树链表，mid-&gt;next到最后作为右子树的链表，迭代进行直到链表为空或者只剩一个元素的时候返回即可。
+将mid作为根节点，head到slow作为左子树链表，mid-&gt;next到最后作为右子树的链表，递归进行直到链表为空或者只剩一个元素的时候返回即可。
 
 ## C++代码
 

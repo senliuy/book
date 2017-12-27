@@ -1,6 +1,6 @@
 # 108. Convert Sorted Array to Binary Search Tree
 
-直达：https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/description/
+直达：[https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/description/](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/description/)
 
 Given an array where elements are sorted in ascending order, convert it to a height balanced BST.
 
@@ -21,7 +21,7 @@ One possible answer is: [0,-3,9,-10,null,5], which represents the following heig
 
 ## 分析
 
-在有序数组中，去中间元素作为根节点，左侧序列迭代的构建新的子树作为根节点的左子树，右侧部分作为右子树。迭代进行直到序列为空。
+在有序数组中，去中间元素作为根节点，左侧序列迭代的构建新的子树作为根节点的左子树，右侧部分作为右子树。递归进行直到序列为空。
 
 ## C++代码
 
