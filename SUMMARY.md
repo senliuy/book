@@ -26,6 +26,7 @@
     * [Q110. Balanced Binary Tree](chapter1/15-shu/q110-balanced-binary-tree.md)
     * [Q111. Minimum Depth of Binary Tree](chapter1/15-shu/q111-minimum-depth-of-binary-tree.md)
     * [Q112. Path Sum](chapter1/15-shu/q112-path-sum.md)
+    * [Q113. Path Sum II](chapter1/15-shu/q113-path-sum-ii.md)
   * [1.7 二进制](chapter1/17-er-jin-zhi.md)
     * [Q89. Gray Code](chapter1/17-er-jin-zhi/q89-gray-code.md)
 * [第二章: 动态规划](di-er-zhang.md)
