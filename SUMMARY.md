@@ -3,6 +3,7 @@
 * [Introduction](README.md)
 * [第一章: 基本结构](chapter1.md)
   * [1.1 数组](chapter1/11-shu-zu.md)
+    * [Q118. Pascal's Triangle](chapter1/11-shu-zu/q118-pascals-triangle.md)
   * [1.2 链表](chapter1/12-lian-biao.md)
     * [Q2: Add Two Numbers](chapter1/11-lian-biao/add-two-numbers.md)
     * [Q86: Partition List](chapter1/11-lian-biao/q86-partition-list.md)
