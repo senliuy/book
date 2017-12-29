@@ -10,7 +10,7 @@
     * [Q1: Two Sum](chapter1/12-ha-xi/two-sum.md)
   * [1.4 堆栈](chapter1/14-dui-zhan.md)
     * [Q84: Largest Rectangle in Histogram](chapter1/14-dui-zhan/largest-rectangle-in-histogram.md)
-    * Q3. Longest Substring Without Repeating Characters 
+    * [Q3. Longest Substring Without Repeating Characters ](chapter1/14-dui-zhan/q3-longest-substring-without-repeating-characters.md)
   * [1.5 树](chapter1/15-shu.md)
     * [Q94. Binary Tree Inorder Traversal](chapter1/15-shu/q94-binary-tree-inorder-traversal.md)
     * [Q100. Same Tree](chapter1/15-shu/q100-same-tree.md)
