@@ -1,6 +1,6 @@
 # 116. Populating Next Right Pointers in Each Node
 
-直达： https://leetcode.com/problems/populating-next-right-pointers-in-each-node/description/
+直达： [https://leetcode.com/problems/populating-next-right-pointers-in-each-node/description/](https://leetcode.com/problems/populating-next-right-pointers-in-each-node/description/)
 
 Given a binary tree
 
@@ -44,7 +44,7 @@ After calling your function, the tree should look like:
 
 ## 分析
 
-左子树的next为其父节点的右子树，右节点的next是其root-&gt;next的左子树，依照此规律，递归的构建即可。
+对于完美的二叉树来说，左子树的next为其父节点的右子树，右节点的next是其root-&gt;next的左子树，依照此规律，递归的构建即可。
 
 ## C++代码
 
