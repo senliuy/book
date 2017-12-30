@@ -45,5 +45,5 @@
   * [Q86. Scramble String](di-san-zhang/q86-scramble-string.md)
   * [Q90: Subsets II](di-san-zhang/q90-subsets-ii.md)
 * [第四章：贪心](di-si-zhang-ff1a-tan-xin.md)
-  * Q122. Best Time to Buy and Sell Stock II
+  * [Q122. Best Time to Buy and Sell Stock II](di-si-zhang-ff1a-tan-xin/q122-best-time-to-buy-and-sell-stock-ii.md)
 
