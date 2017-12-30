@@ -39,7 +39,7 @@
 * [第二章: 动态规划](di-er-zhang.md)
   * [Q85: Maximal Rectangle](di-er-zhang/q85-maximal-rectangle.md)
   * [Q91. Decode Ways](di-er-zhang/q91-decode-ways.md)
-  * Q121. Best Time to Buy and Sell Stock
+  * [Q121. Best Time to Buy and Sell Stock](di-er-zhang/q121-best-time-to-buy-and-sell-stock.md)
 * [第三章: 递归](di-san-zhang.md)
   * [Q78. Subsets](di-san-zhang/q78-subsets.md)
   * [Q86. Scramble String](di-san-zhang/q86-scramble-string.md)
