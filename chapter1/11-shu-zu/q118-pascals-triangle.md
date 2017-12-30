@@ -1,6 +1,6 @@
 # 118. Pascal's Triangle
 
-直达：https://leetcode.com/problems/pascals-triangle/description/
+直达：[https://leetcode.com/problems/pascals-triangle/description/](https://leetcode.com/problems/pascals-triangle/description/)
 
 GivennumRows, generate the firstnumRowsof Pascal's triangle.
 
