@@ -1,6 +1,6 @@
 # 119. Pascal's Triangle II
 
-直达：https://leetcode.com/problems/pascals-triangle-ii/description/
+直达：[https://leetcode.com/problems/pascals-triangle-ii/description/](https://leetcode.com/problems/pascals-triangle-ii/description/)
 
 Given an indexk, return thekthrow of the Pascal's triangle.
 
