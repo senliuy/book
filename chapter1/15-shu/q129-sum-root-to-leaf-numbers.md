@@ -41,15 +41,14 @@ class Solution {
 public:
     int sumNumbers(TreeNode* root) {
         int res = 0;
-        // if(!root) return 0;
+        if(!root) return 0;
         helper(root, root->val, res, 0);
         return res;
     }
 private:
     void helper(TreeNode* root, int path, int& res, int height){
-        if (root==NULL){
+        if (!root->left && !root->right){
             res += path;
-            cout<<path<<endl;
             return;
         }else{
             if(root->left) helper(root->left, 10 * path + root->left->val, res, height+1);
