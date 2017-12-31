@@ -36,6 +36,8 @@
   * [1.6 图](chapter1/16-tu.md)
   * [1.7 二进制](chapter1/17-er-jin-zhi.md)
     * [Q89. Gray Code](chapter1/17-er-jin-zhi/q89-gray-code.md)
+  * [1.8 字符串](chapter1/18-zi-fu-chuan.md)
+    * [Q125. Valid Palindrome](chapter1/18-zi-fu-chuan/q125-valid-palindrome.md)
 * [第二章: 动态规划](di-er-zhang.md)
   * [Q85: Maximal Rectangle](di-er-zhang/q85-maximal-rectangle.md)
   * [Q91. Decode Ways](di-er-zhang/q91-decode-ways.md)
