@@ -9,6 +9,7 @@
   * [1.2 链表](chapter1/12-lian-biao.md)
     * [Q2: Add Two Numbers](chapter1/11-lian-biao/add-two-numbers.md)
     * [Q86: Partition List](chapter1/11-lian-biao/q86-partition-list.md)
+    * [Q141. Linked List Cycle](chapter1/11-lian-biao/q141-linked-list-cycle.md)
   * [1.3 哈希](chapter1/13-ha-xi.md)
     * [Q1: Two Sum](chapter1/12-ha-xi/two-sum.md)
   * [1.4 堆栈](chapter1/14-dui-zhan.md)
