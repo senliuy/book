@@ -1,6 +1,6 @@
 # 141. Linked List Cycle
 
-直达：https://leetcode.com/problems/linked-list-cycle/description/
+直达：[https://leetcode.com/problems/linked-list-cycle/description/](https://leetcode.com/problems/linked-list-cycle/description/)
 
 Given a linked list, determine if it has a cycle in it.
 
@@ -9,7 +9,7 @@ Can you solve it without using extra space?
 
 ## 分析
 
-设置两个指针，快指针每次遍历两个节点，慢指针每次遍历一个节点，如果快指针能和慢指针相遇，则说明存在环。
+设置两个指针，快指针每次遍历两个节点，慢指针每次遍历一个节点，如果快指针能和慢指针相遇，则说明存在环。注意单独处理空链表的情况。
 
 ## C++代码
 
