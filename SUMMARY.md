@@ -40,6 +40,7 @@
   * [1.7 二进制](chapter1/17-er-jin-zhi.md)
     * [Q89. Gray Code](chapter1/17-er-jin-zhi/q89-gray-code.md)
     * [Q136. Single Number](chapter1/17-er-jin-zhi/q136-single-number.md)
+    * [Q137. Single Number II](chapter1/17-er-jin-zhi/q137-single-number-ii.md)
   * [1.8 字符串](chapter1/18-zi-fu-chuan.md)
     * [Q125. Valid Palindrome](chapter1/18-zi-fu-chuan/q125-valid-palindrome.md)
 * [第二章: 动态规划](di-er-zhang.md)
