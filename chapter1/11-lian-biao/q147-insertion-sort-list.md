@@ -9,18 +9,38 @@ Sort a linked list using insertion sort.
 知识点在于链表的插入，分成两种情况。
 
 1. 在头结点之前插入
-   如下图在3之前插入1：
-   ![](/assets/14_1.png)
-   ListNode\* tmp = head;
-   head = head-&gt;next;
-   tmp-&gt;next = res;
-   res = tmp;
+
+如下图在3之前插入1：
+
+
+
+![](/assets/14_1.png)
+
+
+
+ListNode\* tmp = head;
+
+head = head-&gt;next;
+
+tmp-&gt;next = res;
+
+res = tmp;
+
 2. 在中间或者尾部插入，如下图
-   ![](/assets/147_3.png)
-   首先书序遍历res链表，找到该插入的位置，即将head插入l2和l1之间
-    l2-&gt;next = tmp;
-    head = head-&gt;next;
-    tmp-&gt;next = l1;
+
+
+
+![](/assets/147_3.png)
+
+
+
+首先书序遍历res链表，找到该插入的位置，即将head插入l2和l1之间
+
+ l2-&gt;next = tmp;
+
+ head = head-&gt;next;
+
+ tmp-&gt;next = l1;
 
 ## C++代码
 
