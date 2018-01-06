@@ -26,7 +26,7 @@ tmp-&gt;next = res;
 
 res = tmp;
 
-2. 在中间或者尾部插入，如下图
+在中间或者尾部插入，如下图
 
 
 
@@ -34,13 +34,13 @@ res = tmp;
 
 
 
-首先书序遍历res链表，找到该插入的位置，即将head插入l2和l1之间
+首先顺序遍历res链表，找到该插入的位置，即将head插入l2和l1之间
 
- l2-&gt;next = tmp;
+l2-&gt;next = tmp;
 
- head = head-&gt;next;
+head = head-&gt;next;
 
- tmp-&gt;next = l1;
+tmp-&gt;next = l1;
 
 ## C++代码
 
