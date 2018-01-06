@@ -1,6 +1,6 @@
 # 147. Insertion Sort List
 
-直达：https://leetcode.com/problems/insertion-sort-list/description/
+直达：[https://leetcode.com/problems/insertion-sort-list/description/](https://leetcode.com/problems/insertion-sort-list/description/)
 
 Sort a linked list using insertion sort.
 
@@ -24,7 +24,7 @@ Sort a linked list using insertion sort.
 
 ## C++代码
 
-```
+```cpp
 /**
  * Definition for singly-linked list.
  * struct ListNode {
