@@ -12,6 +12,7 @@
     * [Q86: Partition List](chapter1/11-lian-biao/q86-partition-list.md)
     * [Q141. Linked List Cycle](chapter1/11-lian-biao/q141-linked-list-cycle.md)
     * [Q142. Linked List Cycle II](chapter1/11-lian-biao/q142-linked-list-cycle-ii.md)
+    * [Q147. Insertion Sort List](chapter1/11-lian-biao/q147-insertion-sort-list.md)
   * [1.3 哈希](chapter1/13-ha-xi.md)
     * [Q1: Two Sum](chapter1/12-ha-xi/two-sum.md)
   * [1.4 堆栈](chapter1/14-dui-zhan.md)
