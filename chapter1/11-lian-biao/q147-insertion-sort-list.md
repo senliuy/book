@@ -12,35 +12,26 @@ Sort a linked list using insertion sort.
 
 如下图在3之前插入1：
 
-
-
 ![](/assets/14_1.png)
 
-
-
-ListNode\* tmp = head;
-
-head = head-&gt;next;
-
-tmp-&gt;next = res;
-
+```
+ListNode* tmp = head;
+head = head->next;
+tmp->next = res;
 res = tmp;
+```
 
-在中间或者尾部插入，如下图
-
-
+2. 在中间或者尾部插入，如下图
 
 ![](/assets/147_3.png)
 
-
-
 首先顺序遍历res链表，找到该插入的位置，即将head插入l2和l1之间
 
-l2-&gt;next = tmp;
-
-head = head-&gt;next;
-
-tmp-&gt;next = l1;
+```
+l2->next = tmp;
+head = head->next;
+tmp->next = l1;
+```
 
 ## C++代码
 
