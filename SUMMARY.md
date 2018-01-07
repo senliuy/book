@@ -59,5 +59,6 @@
   * [Q122. Best Time to Buy and Sell Stock II](di-si-zhang-ff1a-tan-xin/q122-best-time-to-buy-and-sell-stock-ii.md)
 * [第五章：数学](di-wu-zhang-ff1a-shu-xue.md)
   * [Q6. ZigZag Conversion](chapter1/18-zi-fu-chuan/q6-zigzag-conversion.md)
+  * [Q7. Reverse Integer](chapter1/18-zi-fu-chuan/q7-reverse-integer.md)
 * [第六章：并查集](di-liu-zhang-ff1a-bing-cha-ji.md)
 
