@@ -61,5 +61,5 @@
 * [第六章：数学](di-liu-zhang-ff1a-shu-xue.md)
   * [Q6. ZigZag Conversion](chapter1/18-zi-fu-chuan/q6-zigzag-conversion.md)
   * [Q7. Reverse Integer](chapter1/18-zi-fu-chuan/q7-reverse-integer.md)
-* [第六章：并查集](di-liu-zhang-ff1a-bing-cha-ji.md)
+* [第六章：高级算法](di-liu-zhang-ff1a-bing-cha-ji.md)
 
