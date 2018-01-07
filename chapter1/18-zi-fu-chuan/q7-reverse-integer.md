@@ -1,6 +1,6 @@
 # 7. Reverse Integer
 
-直达：https://leetcode.com/problems/reverse-integer/description/
+直达：[https://leetcode.com/problems/reverse-integer/description/](https://leetcode.com/problems/reverse-integer/description/)
 
 iven a 32-bit signed integer, reverse digits of an integer.
 
@@ -40,7 +40,7 @@ Assume we are dealing with an environment which could only hold integers within 
 
 #### C++
 
-```
+```cpp
 class Solution {
 public:
     int reverse(int x) {
@@ -61,7 +61,7 @@ public:
 
 #### python
 
-```
+```py
 class Solution(object):
     def reverse(self, x):
         """
@@ -80,7 +80,6 @@ class Solution(object):
             return 0
         else:
             return res
-        
 ```
 
 
