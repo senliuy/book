@@ -45,6 +45,7 @@
     * [Q136. Single Number](chapter1/17-er-jin-zhi/q136-single-number.md)
     * [Q137. Single Number II](chapter1/17-er-jin-zhi/q137-single-number-ii.md)
   * [1.8 字符串](chapter1/18-zi-fu-chuan.md)
+    * [Q5. Longest Palindromic Substring](chapter1/18-zi-fu-chuan/q5-longest-palindromic-substring.md)
     * [Q125. Valid Palindrome](chapter1/18-zi-fu-chuan/q125-valid-palindrome.md)
 * [第二章: 动态规划](di-er-zhang.md)
   * [Q85: Maximal Rectangle](di-er-zhang/q85-maximal-rectangle.md)
@@ -58,4 +59,6 @@
   * [Q122. Best Time to Buy and Sell Stock II](di-si-zhang-ff1a-tan-xin/q122-best-time-to-buy-and-sell-stock-ii.md)
 * [第五章：数学](di-wu-zhang-ff1a-shu-xue.md)
 * [第六章：并查集](di-liu-zhang-ff1a-bing-cha-ji.md)
+
+
 
