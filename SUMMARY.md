@@ -47,6 +47,7 @@
     * [Q137. Single Number II](chapter1/17-er-jin-zhi/q137-single-number-ii.md)
   * [1.8 字符串](chapter1/18-zi-fu-chuan.md)
     * [Q5. Longest Palindromic Substring](chapter1/18-zi-fu-chuan/q5-longest-palindromic-substring.md)
+    * [Q14. Longest Common Prefix](chapter1/18-zi-fu-chuan/q14-longest-common-prefix.md)
     * [Q125. Valid Palindrome](chapter1/18-zi-fu-chuan/q125-valid-palindrome.md)
 * [第二章: 动态规划](di-er-zhang.md)
   * [Q85: Maximal Rectangle](di-er-zhang/q85-maximal-rectangle.md)
