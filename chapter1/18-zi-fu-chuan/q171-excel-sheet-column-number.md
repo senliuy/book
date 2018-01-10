@@ -1,6 +1,6 @@
 # 171. Excel Sheet Column Number
 
-直达：https://leetcode.com/problems/excel-sheet-column-number/description/
+直达：[https://leetcode.com/problems/excel-sheet-column-number/description/](https://leetcode.com/problems/excel-sheet-column-number/description/)
 
 Related to question [Excel Sheet Column Title](https://leetcode.com/problems/excel-sheet-column-title/)
 
@@ -15,7 +15,7 @@ For example:
     ...
     Z -> 26
     AA -> 27
-    AB -> 28 
+    AB -> 28
 ```
 
 **Credits:**  
