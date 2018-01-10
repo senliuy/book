@@ -48,7 +48,7 @@
     * [Q89. Gray Code](chapter1/17-er-jin-zhi/q89-gray-code.md)
     * [Q136. Single Number](chapter1/17-er-jin-zhi/q136-single-number.md)
     * [Q137. Single Number II](chapter1/17-er-jin-zhi/q137-single-number-ii.md)
-    * Q191. Number of 1 Bits
+    * [Q191. Number of 1 Bits](chapter1/17-er-jin-zhi/q191-number-of-1-bits.md)
   * [1.8 字符串](chapter1/18-zi-fu-chuan.md)
     * [Q5. Longest Palindromic Substring](chapter1/18-zi-fu-chuan/q5-longest-palindromic-substring.md)
     * [Q14. Longest Common Prefix](chapter1/18-zi-fu-chuan/q14-longest-common-prefix.md)
