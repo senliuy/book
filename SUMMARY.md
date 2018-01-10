@@ -70,5 +70,6 @@
   * [Q6. ZigZag Conversion](chapter1/18-zi-fu-chuan/q6-zigzag-conversion.md)
   * [Q7. Reverse Integer](chapter1/18-zi-fu-chuan/q7-reverse-integer.md)
   * [Q9. Palindrome Number](chapter1/18-zi-fu-chuan/q9-palindrome-number.md)
+  * [Q171. Excel Sheet Column Number](chapter1/18-zi-fu-chuan/q171-excel-sheet-column-number.md)
 * [第七章：高级算法](di-qi-zhang-ff1a-gao-ji-suan-fa.md)
 
