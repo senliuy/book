@@ -1,6 +1,6 @@
 # 168. Excel Sheet Column Title
 
-直达：https://leetcode.com/problems/excel-sheet-column-title/description/
+直达：[https://leetcode.com/problems/excel-sheet-column-title/description/](https://leetcode.com/problems/excel-sheet-column-title/description/)
 
 Given a positive integer, return its corresponding column title as appear in an Excel sheet.
 
@@ -13,12 +13,14 @@ For example:
     ...
     26 -> Z
     27 -> AA
-    28 -> AB 
+    28 -> AB
 ```
 
 ## 分析
 
-这道题是十进制转26进制，但是注意十进制是从1开始计数，所以开始的时候n要减一。
+这道题是十进制转26进制，但是注意十进制是从1开始计数，所以开始的时候n要减1。
+
+例如26 -&gt; Z， \(26-1\)%26 = 25, 25+'A'对应的是Z。
 
 ## C++代码
 
