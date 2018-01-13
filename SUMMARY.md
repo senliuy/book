@@ -4,7 +4,6 @@
 * [第一章: 基本结构](chapter1.md)
   * [1.1 数组](chapter1/11-shu-zu.md)
     * [Q11. Container With Most Water](chapter1/11-shu-zu/q11-container-with-most-water.md)
-    * [Q15. Three Sum](chapter1/12-ha-xi/q15-three-sum.md)
     * [Q118. Pascal's Triangle](chapter1/11-shu-zu/q118-pascals-triangle.md)
     * [Q119. Pascal's Triangle II](chapter1/11-shu-zu/q119-pascals-triangle-ii.md)
     * [Q120. Triangle](chapter1/11-shu-zu/q120-triangle.md)
@@ -73,9 +72,8 @@
   * [Q168. Excel Sheet Column Title](chapter1/18-zi-fu-chuan/q168-excel-sheet-column-title.md)
   * [Q171. Excel Sheet Column Number](chapter1/18-zi-fu-chuan/q171-excel-sheet-column-number.md)
 * [第七章：查找](di-qi-zhang-ff1a-cha-zhao.md)
+  * [Q15. Three Sum](chapter1/12-ha-xi/q15-three-sum.md)
   * [Q167. Two Sum II](chapter1/11-shu-zu/q167-two-sum-ii.md)
   * [Q169. Majority Element](chapter1/11-shu-zu/q169-majority-element.md)
 * [第八章：排序](di-ba-zhang-ff1a-pai-xu.md)
-
-
 
