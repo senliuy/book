@@ -73,6 +73,13 @@
   * [Q9. Palindrome Number](chapter1/18-zi-fu-chuan/q9-palindrome-number.md)
   * [Q168. Excel Sheet Column Title](chapter1/18-zi-fu-chuan/q168-excel-sheet-column-title.md)
   * [Q171. Excel Sheet Column Number](chapter1/18-zi-fu-chuan/q171-excel-sheet-column-number.md)
+
+  第八章：排序
+
+  * 第七章：查找
+
 * [第九章：高级算法](di-jiu-zhang-ff1a-gao-ji-suan-fa.md)
 * [Q169. Majority Element](chapter1/11-shu-zu/q169-majority-element.md)
+
+
 
