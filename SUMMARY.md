@@ -10,7 +10,6 @@
     * [Q120. Triangle](chapter1/11-shu-zu/q120-triangle.md)
     * [Q134. Gas Station](chapter1/11-shu-zu/q134-gas-station.md)
     * [Q167. Two Sum II](chapter1/11-shu-zu/q167-two-sum-ii.md)
-    * [Q169. Majority Element](chapter1/11-shu-zu/q169-majority-element.md)
   * [1.2 链表](chapter1/12-lian-biao.md)
     * [Q2: Add Two Numbers](chapter1/11-lian-biao/add-two-numbers.md)
     * [Q86: Partition List](chapter1/11-lian-biao/q86-partition-list.md)
@@ -67,12 +66,13 @@
   * [Q90: Subsets II](di-san-zhang/q90-subsets-ii.md)
 * [第四章：贪心](di-si-zhang-ff1a-tan-xin.md)
   * [Q122. Best Time to Buy and Sell Stock II](di-si-zhang-ff1a-tan-xin/q122-best-time-to-buy-and-sell-stock-ii.md)
-* 第五章：分治法
+* [第五章：分治法](di-wu-zhang-ff1a-fen-zhi-fa.md)
 * [第六章：数学](di-liu-zhang-ff1a-shu-xue.md)
   * [Q6. ZigZag Conversion](chapter1/18-zi-fu-chuan/q6-zigzag-conversion.md)
   * [Q7. Reverse Integer](chapter1/18-zi-fu-chuan/q7-reverse-integer.md)
   * [Q9. Palindrome Number](chapter1/18-zi-fu-chuan/q9-palindrome-number.md)
-  * Q168. Excel Sheet Column Title
+  * [Q168. Excel Sheet Column Title](chapter1/18-zi-fu-chuan/q168-excel-sheet-column-title.md)
   * [Q171. Excel Sheet Column Number](chapter1/18-zi-fu-chuan/q171-excel-sheet-column-number.md)
-* [第七章：高级算法](di-qi-zhang-ff1a-gao-ji-suan-fa.md)
+* [第九章：高级算法](di-jiu-zhang-ff1a-gao-ji-suan-fa.md)
+* [Q169. Majority Element](chapter1/11-shu-zu/q169-majority-element.md)
 
