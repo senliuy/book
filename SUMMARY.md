@@ -4,6 +4,7 @@
 * [第一章: 基本结构](chapter1.md)
   * [1.1 数组](chapter1/11-shu-zu.md)
     * [Q11. Container With Most Water](chapter1/11-shu-zu/q11-container-with-most-water.md)
+    * [Q16. 3Sum Closest    ](chapter1/11-shu-zu/q16-3sum-closest.md)
     * [Q118. Pascal's Triangle](chapter1/11-shu-zu/q118-pascals-triangle.md)
     * [Q119. Pascal's Triangle II](chapter1/11-shu-zu/q119-pascals-triangle-ii.md)
     * [Q120. Triangle](chapter1/11-shu-zu/q120-triangle.md)
