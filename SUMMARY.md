@@ -14,6 +14,7 @@
     * [Q19. Remove Nth Node From End of List](chapter1/11-lian-biao/q19-remove-nth-node-from-end-of-list.md)
     * [Q82. Remove Duplicates from Sorted List II](chapter1/11-lian-biao/q82-remove-duplicates-from-sorted-list-ii.md)
     * [Q86: Partition List](chapter1/11-lian-biao/q86-partition-list.md)
+    * [Q92. Reverse Linked List II](chapter1/11-lian-biao/q92-reverse-linked-list-ii.md)
     * [Q141. Linked List Cycle](chapter1/11-lian-biao/q141-linked-list-cycle.md)
     * [Q142. Linked List Cycle II](chapter1/11-lian-biao/q142-linked-list-cycle-ii.md)
     * [Q147. Insertion Sort List](chapter1/11-lian-biao/q147-insertion-sort-list.md)
