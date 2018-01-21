@@ -12,6 +12,7 @@
   * [1.2 链表](chapter1/12-lian-biao.md)
     * [Q2: Add Two Numbers](chapter1/11-lian-biao/add-two-numbers.md)
     * [Q19. Remove Nth Node From End of List](chapter1/11-lian-biao/q19-remove-nth-node-from-end-of-list.md)
+    * [Q82. Remove Duplicates from Sorted List II](chapter1/11-lian-biao/q82-remove-duplicates-from-sorted-list-ii.md)
     * [Q86: Partition List](chapter1/11-lian-biao/q86-partition-list.md)
     * [Q141. Linked List Cycle](chapter1/11-lian-biao/q141-linked-list-cycle.md)
     * [Q142. Linked List Cycle II](chapter1/11-lian-biao/q142-linked-list-cycle-ii.md)
@@ -60,7 +61,7 @@
   * [Q85: Maximal Rectangle](di-er-zhang/q85-maximal-rectangle.md)
   * [Q91. Decode Ways](di-er-zhang/q91-decode-ways.md)
   * [Q121. Best Time to Buy and Sell Stock](di-er-zhang/q121-best-time-to-buy-and-sell-stock.md)
-  * Q198. House Robber
+  * [Q198. House Robber](di-er-zhang/q198-house-robber.md)
 * [第三章: 递归](di-san-zhang.md)
   * [Q17. Letter Combinations of a Phone Number](di-san-zhang/q17-letter-combinations-of-a-phone-number.md)
   * [Q78. Subsets](di-san-zhang/q78-subsets.md)
