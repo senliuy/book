@@ -1,35 +1,34 @@
 # 144. Binary Tree Preorder Traversal
 
-直达：https://leetcode.com/problems/binary-tree-preorder-traversal/
-
 Given a binary tree, return thepreordertraversal of its nodes' values.
 
-For example: Given binary tree\[1,null,2,3\],
+For example:  
+Given binary tree`[1,null,2,3]`,
 
 ```
-1
- \
-  2
- /
-3
+   1
+    \
+     2
+    /
+   3
 ```
 
-return\[1,2,3\].
+return`[1,2,3]`.
 
-**Note**:Recursive solution is trivial, could you do it iteratively?
+**Note:**Recursive solution is trivial, could you do it iteratively?
 
-## 分析
+# 分析
 
 用递归解决二叉树的遍历是非常普遍的解法，题目提出能否使用迭代来进行二叉树的先序遍历。
 
 对于先序遍历，需要使用堆栈做辅助。首先树顶入栈，然后执行while循环直到堆栈为空。在循环中每次弹出栈顶元素，将结果保存在数组中然后再将弹出节点的右子树和左子树一次入栈。首先，例如树
 
 ```
-   1
-  / \
- 2   3
-/ \ / \
-4 5 6 7
+      1
+    /   \
+   2     3
+  / \   / \
+ 4   5 6   7
 ```
 
 1. 入栈，执行while循环.
