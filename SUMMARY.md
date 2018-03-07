@@ -27,6 +27,7 @@
     * [Q84: Largest Rectangle in Histogram](chapter1/14-dui-zhan/largest-rectangle-in-histogram.md)
     * [Q155. Min Stack](chapter1/14-dui-zhan/q155-min-stack.md)
     * [Q20. Valid Parentheses](chapter1/14-dui-zhan/q20-valid-parentheses.md)
+    * [Q232. Implement Queue using Stacks](chapter1/14-dui-zhan/q232-implement-queue-using-stacks.md)
   * [1.5 树](chapter1/15-shu.md)
     * [Q94. Binary Tree Inorder Traversal](chapter1/15-shu/q94-binary-tree-inorder-traversal.md)
     * [Q100. Same Tree](chapter1/15-shu/q100-same-tree.md)
